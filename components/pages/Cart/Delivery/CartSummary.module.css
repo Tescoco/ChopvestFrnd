@@ -1,0 +1,68 @@
+.container {
+  width: 90%;
+  background-color: white;
+  margin-top: 2vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+}
+.containerInner {
+  margin: 10px 10px 10px 10px;
+}
+.orderList {
+  margin: 0px 0px 10px 0px;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.name {
+  width: 67%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+}
+.delivery {
+  width: 75%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.quantity {
+  width: 8%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.price {
+  width: 20%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.divider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dividerInner {
+  height: 1px;
+  background-color: black;
+  width: 80%;
+}
+.Total {
+  font-weight: bolder;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  font-family: "PT Sans Narrow", sans-serif;
+}

@@ -1,0 +1,42 @@
+.container {
+  width: 90%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: orange;
+  border-width: 1px;
+}
+.containerInner {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  width: 90%;
+}
+.row1 {
+  width: 100%;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.row2 {
+  width: 100%;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.row2Inner1 {
+  width: 95%;
+  white-space: pre-wrap;
+}
+.row2Inner2 {
+  text-align: center;
+  cursor: pointer;
+}
+.row3 {
+  width: 70%;
+  margin-top: 1vh;
+  font-family: "PT Sans Narrow", sans-serif;
+}

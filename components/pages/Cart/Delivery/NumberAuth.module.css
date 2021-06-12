@@ -1,0 +1,88 @@
+.container {
+  height: 70vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.row1 {
+  width: 94%;
+  height: 40px;
+  align-items: flex-end;
+  display: flex;
+  font-size: 16px;
+}
+.row3 {
+  width: 94%;
+  height: 40px;
+  color: rgb(113, 113, 255);
+  text-decoration: underline;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  align-items: center;
+}
+.row3Inner1 {
+  width: 63%;
+  margin-left: 6%;
+}
+.row2 {
+  width: 96%;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: orange;
+}
+.row4 {
+  width: 96%;
+  height: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.row4Inner {
+  width: 50%;
+  height: 90%;
+  background-color: orange;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: "Squada One";
+  color: white;
+  cursor: pointer;
+}
+.row4InnerDisabled {
+  width: 50%;
+  height: 90%;
+  background-color: rgb(252, 204, 115);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: "Squada One";
+  color: white;
+  cursor: not-allowed;
+}
+.row4Inner:hover {
+  background-color: rgb(230, 152, 7);
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: orange;
+  outline-style: none;
+  font-size: 25px;
+  color: orange;
+  text-align: center;
+}

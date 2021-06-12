@@ -1,0 +1,81 @@
+.container {
+  height: 122px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.containerInner {
+  height: 61px;
+  width: 100%;
+  background-color: rgb(255, 251, 235);
+  flex-direction: row;
+  display: flex;
+}
+.searchBox {
+  height: 61px;
+  width: 70%;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+.CTA {
+  height: 61px;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.searchBoxInner {
+  height: 80%;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+  border-color: rgb(250, 239, 198);
+}
+.searchBoxInner:hover {
+  border-color: orange;
+}
+.input {
+  height: 80%;
+  width: 90%;
+  outline: none;
+  font-size: 18px;
+  border-style: solid;
+  font-family: "Indie Flower", cursive;
+  font-weight: 500;
+  border-style: none;
+}
+
+.CTAInner {
+  height: 78%;
+  width: 60%;
+  max-width: 160px;
+  background-color: orange;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+}
+.CTAInner:hover {
+  background-color: rgb(248, 164, 9);
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: flex-end !important;
+  }
+  .containerInner {
+    width: calc(100% - 170px) !important;
+  }
+}

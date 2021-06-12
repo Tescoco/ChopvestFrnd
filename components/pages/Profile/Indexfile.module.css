@@ -1,0 +1,98 @@
+.container {
+  background-color: rgb(255, 251, 235);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.row1 {
+  background-color: brown;
+  width: 100%;
+  height: 20vh;
+  flex-direction: row;
+}
+.row2 {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+}
+.row3 {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+.row4 {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 18px;
+  font-family: "Nova Mono", monospace;
+}
+.row2Icon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.row2Inner {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.row2Header {
+  height: 5vh;
+  align-items: flex-end;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  flex-direction: row;
+}
+.row2Header1 {
+  width: 80%;
+}
+.row2Header2 {
+  width: 20%;
+  justify-content: center;
+  display: flex;
+  align-items: flex-end;
+}
+.row2Content {
+  height: 10vh;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+}
+.row2IconInner {
+  height: 6.5vh;
+  align-items: flex-end;
+  display: flex;
+}
+.row3IconInner {
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+.row3Icon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.row3Inner {
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  width: 80%;
+}
+.row3InnerMain {
+  width: 80%;
+}
