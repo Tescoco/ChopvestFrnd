@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  display: flex;
+  top: 6vh;
+  position: absolute;
+}
+.containerInner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: flex-end !important;
+    padding-left: 40px;
+  }
+  .containerInner {
+    width: calc(100% - 170px) !important;
+  }
+}

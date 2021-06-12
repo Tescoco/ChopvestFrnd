@@ -1,0 +1,44 @@
+.addressMainDialog {
+  height: 300px;
+  width: 300px;
+}
+.imageBox {
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.content {
+  height: 30%;
+  font-family: "Nova Mono", monospace;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.contentInner {
+  width: 90%;
+}
+.CTA {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CtaInner:hover {
+  width: 53%;
+  height: 63%;
+  cursor: pointer;
+}
+
+.CtaInner {
+  background-color: orange;
+  width: 50%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  font-family: "Nova Mono", monospace;
+}

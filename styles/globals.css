@@ -4,8 +4,13 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +18,43 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.rec-arrow {
+  display: none;
+}
+.rec-dot_active {
+  background-color: coral !important;
+}
+.rec-dot {
+  box-shadow: 0 0 1px 3px coral !important;
+  width: 7px !important;
+  height: 7px !important;
+}
+.MuiCircularProgress-colorPrimary {
+  color: rgb(255, 251, 235) !important;
+}
+.custom-styles .ReactInputVerificationCode__item {
+  position: relative;
+  color: orange;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+.custom-styles .ReactInputVerificationCode__item,
+.custom-styles .ReactInputVerificationCode__item.is-active {
+  box-shadow: none;
+}
+
+.custom-styles .ReactInputVerificationCode__item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 2px;
+  background-color: orange;
+}
+.MuiCircularProgress-colorPrimary {
+  color: orange !important;
 }

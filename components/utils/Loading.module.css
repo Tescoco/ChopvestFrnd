@@ -1,0 +1,10 @@
+.container {
+  top: 2vh;
+  position: fixed;
+  height: 4vh;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 3;
+}

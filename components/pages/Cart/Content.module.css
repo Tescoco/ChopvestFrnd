@@ -1,0 +1,7 @@
+.container {
+  width: 100%;
+  display: flex;
+  background-color: rgb(255, 251, 235);
+  position: absolute;
+  top: 8vh;
+}
