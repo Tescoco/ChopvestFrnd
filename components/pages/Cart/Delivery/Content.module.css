@@ -1,0 +1,15 @@
+.row1 {
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  align-items: flex-end;
+}
+.row1Inner {
+  cursor: pointer;
+}
+.dialogContent {
+  width: 100%;
+}
+.dialogContent::-webkit-scrollbar {
+  display: none;
+}

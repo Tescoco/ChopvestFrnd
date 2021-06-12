@@ -1,0 +1,27 @@
+.container {
+  height: 61px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 251, 235);
+  top: 0;
+  z-index: 2;
+}
+.notifs {
+  width: 60px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.logoText {
+  padding-left: 30px;
+  font-family: "Nova Mono", monospace;
+}

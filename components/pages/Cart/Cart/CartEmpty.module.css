@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  display: flex;
+  top: 6vh;
+  position: absolute;
+  background-color: rgb(255, 251, 235);
+}
+.containerInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 94vh;
+  height: 70vh;
+
+  width: 100%;
+  flex-direction: column;
+  color: orange;
+  font-size: 16px;
+}
+.CTA {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: orange;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 3px 17px 4px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 2px 3px 17px 4px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 2px 3px 17px 4px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+}
+.CTA:hover {
+  background-color: rgb(243, 158, 0);
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: flex-end !important;
+    padding-left: 40px;
+  }
+  .containerInner {
+    width: calc(100% - 170px) !important;
+  }
+}

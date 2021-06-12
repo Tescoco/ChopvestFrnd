@@ -1,0 +1,106 @@
+.container {
+  height: 70vh;
+  width: 100%;
+}
+.name {
+  height: 110px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.email {
+  height: 110px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phoneNumber {
+  height: 110px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.CTA {
+  height: 110px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Fname {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Lname {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nameTI {
+  width: 90%;
+}
+.emailTI {
+  width: 95%;
+}
+.CCode {
+  width: 25%;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+.number {
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.numberTI {
+  width: 93%;
+}
+.CTAInner {
+  width: 50%;
+  height: 60%;
+  background-color: orange;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.CTAInnerLoading {
+  width: 50%;
+  height: 60%;
+  background-color: rgb(255, 216, 145);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: wait;
+}
+.CTAInnerDisabled {
+  width: 50%;
+  height: 60%;
+  background-color: rgb(240, 208, 149);
+  border-radius: 30px;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+.CTAInner:hover {
+  background-color: rgb(243, 166, 23);
+}
+
+.CTAInnerText {
+  font-size: 20px;
+  font-family: "Squada One";
+  color: white;
+}

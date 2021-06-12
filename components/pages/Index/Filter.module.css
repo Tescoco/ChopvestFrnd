@@ -1,0 +1,140 @@
+/* .container {
+  height: 8vh;
+  width: 100%;
+  background-color: brown;
+  
+} */
+.containerMobile {
+  height: 61px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  position: fixed;
+  z-index: 2;
+  top: 61px;
+  scrollbar-width: none; /* Firefox */
+}
+.containerMobile::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.filter {
+  overflow-x: scroll;
+  height: 61px;
+  background-color: rgb(255, 251, 235);
+  display: inline-block;
+}
+.containerBGS {
+  display: none;
+}
+.sliderMain {
+  width: 230px;
+  margin-left: 35px;
+  display: flex;
+}
+.sliderContent {
+  width: 300px;
+  margin-left: 25px;
+  display: flex;
+  height: 90%;
+  align-items: flex-end;
+}
+.filterInner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+.option {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  border-radius: 20px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgb(152, 255, 84);
+  font-family: "Nova Mono", monospace;
+}
+.decs {
+  font-size: 16px;
+  width: 210px;
+}
+.decsAction {
+  color: orange;
+  font-size: 16px;
+  justify-content: flex-end;
+}
+.sliderContentPrice {
+  width: 300px;
+  margin-left: 25px;
+  display: flex;
+  height: 90%;
+  align-items: flex-start;
+}
+.minPrice {
+  font-size: 16px;
+  width: 160px;
+}
+.maxPrice {
+  color: orange;
+  font-size: 16px;
+  justify-content: start;
+}
+.decsAction:hover {
+  color: rgba(197, 128, 1, 0.884);
+  cursor: pointer;
+}
+.priceInput {
+  display: "flex";
+  flex-wrap: "wrap";
+  width: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .containerMobile {
+    width: calc(100% - 170px);
+  }
+  .container {
+    justify-content: flex-end;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .container {
+    height: 92vh;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .containerMobile {
+    display: none !important;
+  }
+  .containerBGS {
+    display: flex;
+    height: 100%;
+    top: 122px;
+    width: 100%;
+    position: fixed;
+    flex-direction: column;
+  }
+  .BGSfilter1 {
+    height: 20%;
+    width: 100%;
+    display: grid;
+  }
+  .BGSfilter2 {
+    height: 20%;
+    width: 100%;
+    background-color: rgb(134, 0, 0);
+  }
+  .BGSfilter3 {
+    height: 20%;
+    width: 100%;
+    background-color: rgb(245, 32, 32);
+  }
+}

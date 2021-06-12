@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1024px) {
+  .container {
+    height: 92%;
+    width: 100%;
+    display: flex;
+  }
+  .containerInner {
+    width: 100%;
+    background-color: rgb(255, 251, 235);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .containerInner {
+    width: 100%;
+    background-color: rgb(255, 251, 235);
+  }
+}
+.container {
+  padding-bottom: 100ch;
+}
